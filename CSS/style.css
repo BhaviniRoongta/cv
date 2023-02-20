@@ -1,0 +1,41 @@
+body {
+    background-color:#F8F4EA;
+}
+h1{
+    color: #A75D5D;
+}
+h3{
+    color:#D3756B
+}
+hr {
+    border-color:#579BB1;
+    border-style:none;
+    border-top-style:dotted;
+    border-width: 3px;
+}
+#profile-pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-image: url(../Images/Bhavini\ Roongta.jpeg);
+}
+#profile-heading{
+    padding: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;    
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.padding20{
+    padding-top: 20px;
+}
+/* conatct me form css */
+#contactMeForm{
+    display: inline-grid;
+}
